@@ -1,6 +1,6 @@
 # Learning Next.js
 
-## Routing
+## 🔀 Routing
 Tipo de rutas:
  - 🌳 Rutas Estaticas -> `/about/` -> Estas funcionan usando el file system es decir creamos dentro de pages las paginas por ejemplo **contact, about, index, etc...** 
 
@@ -23,7 +23,7 @@ Hay que recordar que para poder recuperar los parametros de la ruta se debe usar
     1. Static Generation (Recomendado por Next.js) -> El HTML es generado en **build time** y es reutilizable para cada peticion
     2. Server-side Rendering: El HTML es generado en cada peticion
 
-### Linking pages
+### 🤞 Linking pages
 Para relacionar nuestras paginas usando Next.js debemos usar el componente `Link` que se encuentra en `next/link` y se usa asi:
 ```
     ...
@@ -32,3 +32,6 @@ Para relacionar nuestras paginas usando Next.js debemos usar el componente `Link
     </Link> 
     ...
 ```
+
+### 👀 UnderTheHood
+- Prefetching automatico -> Next.js realiza por nosotros una precarga de las paginas antes de que el cliente vaya a dichas paginas
